@@ -306,7 +306,7 @@ while ((result = regex2.exec(string))) {
 // => ["27", "27", index: 8, input: "2017.06.27"] 10
 ```
 
-### 7.2.4. 修饰符 g，对 exex 和 test 的影响
+### 7.2.4. 修饰符 g，对 exec 和 test 的影响
 
 上面提到了正则实例的 lastIndex 属性，表示尝试匹配时，从字符串的 `lastIndex` 位开始去匹配。
 
